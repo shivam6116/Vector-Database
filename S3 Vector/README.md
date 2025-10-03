@@ -73,20 +73,22 @@ Refer to `main.py` for example usage including storing vectors, querying semanti
 ```bash
 git clone https://github.com/shivam6116/Vector-Database.git
 cd s3-vector-embedding
+```
 
 2. Create a virtual environment and activate it:
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
-
+```
 3. Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 📝 Environment Variables
 
 Create a .env file in the project root:
-
+```bash
 # Azure OpenAI Embedding Credentials
 API_KEY=your_azure_api_key
 API_VERSION=2024-05-01-preview
@@ -99,5 +101,5 @@ aws_user_secret_key=your_aws_secret_key
 s3_region=us-east-1
 s3_bucket=your-s3-vector-bucket
 s3_vector_index=your-vector-index
-
+```
 
