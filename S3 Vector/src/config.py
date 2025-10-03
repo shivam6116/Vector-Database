@@ -16,3 +16,4 @@ class Settings(BaseSettings):
         env_file = ".env"
 
 settings = Settings()
+print("="*5,"Config.py Loaded.","="*5)

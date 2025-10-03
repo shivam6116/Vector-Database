@@ -5,6 +5,7 @@ from src.services.s3_vector_service import S3VectorService
 logging.basicConfig(level=logging.INFO)
 
 if __name__ == "__main__":
+    print("="*5,"Running manin.py.","="*5)
     vector_service = S3VectorService()
     
     movie_data = [

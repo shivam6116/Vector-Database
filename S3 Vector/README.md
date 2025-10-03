@@ -54,13 +54,13 @@ pip install -r requirements.txt
 
 Create a .env file in the project root:
 
-# Azure OpenAI
+# Azure OpenAI Embedding Credentials
 API_KEY=your_azure_api_key
 API_VERSION=2024-05-01-preview
 ENDPOINT=https://your-endpoint.openai.azure.com/
 EMBEDDING_MODEL=text-embedding-ada-002
 
-# AWS / S3 Vectors
+# AWS / S3 Vectors Credentials
 aws_user_access_key=your_aws_access_key
 aws_user_secret_key=your_aws_secret_key
 s3_region=us-east-1
